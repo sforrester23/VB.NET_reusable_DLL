@@ -1,0 +1,9 @@
+C:\Users\sam_f\code\VB.NET\AdventureWorks\Common.Library\bin\Debug\Common.Library.dll
+C:\Users\sam_f\code\VB.NET\AdventureWorks\Common.Library\bin\Debug\Common.Library.pdb
+C:\Users\sam_f\code\VB.NET\AdventureWorks\Common.Library\bin\Debug\Common.Library.xml
+C:\Users\sam_f\code\VB.NET\AdventureWorks\Common.Library\obj\Debug\Common.Library.vbprojAssemblyReference.cache
+C:\Users\sam_f\code\VB.NET\AdventureWorks\Common.Library\obj\Debug\Common.Library.Resources.resources
+C:\Users\sam_f\code\VB.NET\AdventureWorks\Common.Library\obj\Debug\Common.Library.vbproj.GenerateResource.cache
+C:\Users\sam_f\code\VB.NET\AdventureWorks\Common.Library\obj\Debug\Common.Library.dll
+C:\Users\sam_f\code\VB.NET\AdventureWorks\Common.Library\obj\Debug\Common.Library.xml
+C:\Users\sam_f\code\VB.NET\AdventureWorks\Common.Library\obj\Debug\Common.Library.pdb
