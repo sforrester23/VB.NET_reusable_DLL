@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:local="clr-namespace:AdventureWorks"
         mc:Ignorable="d"
         Title="AdventureWorks Application" 
         WindowStartupLocation="CenterScreen"
@@ -19,12 +19,16 @@
                           Click="Exit_Click" />
             </MenuItem>
             <MenuItem Header="Products">
+                <MenuItem Header="List"
+                          Click="ProductList_Click" />
                 <MenuItem Header="Detail"
                           Click="ProductDetail_Click" />
             </MenuItem>
             <MenuItem Header="Customers">
                 <MenuItem Header="Detail"
                           Click="CustomerDetail_Click" />
+                <MenuItem Header="List"
+                          Click="CustomerList_Click" />
             </MenuItem>
         </Menu>
         <!--Only set name property on those controls you need to access in code. Generally we won't need to do this as XAML relies heavily on data binding-->

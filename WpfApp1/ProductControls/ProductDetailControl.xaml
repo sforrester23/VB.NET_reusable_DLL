@@ -13,7 +13,7 @@
         <!--Key name given is viewModel-->
         <vm:ProductViewModel x:Key="viewModel" />
     </UserControl.Resources>
-    <!--DataContext us XAML's way of binding UI elements to properties within classes-->
+    <!--DataContext is XAML's way of binding UI elements to properties within classes-->
     <!--Anything available in the customer viewModel, is available in the grid-->
     <Grid DataContext="{StaticResource viewModel}">
         <Grid.ColumnDefinitions>

@@ -56,7 +56,7 @@ Partial Public Class CustomerDetailControl
             Return
         End If
         _contentLoaded = true
-        Dim resourceLocater As System.Uri = New System.Uri("/WpfApp1;component/customercontrols/customerdetailcontrol.xaml", System.UriKind.Relative)
+        Dim resourceLocater As System.Uri = New System.Uri("/AdventureWorks;component/customercontrols/customerdetailcontrol.xaml", System.UriKind.Relative)
         
         #ExternalSource("..\..\..\CustomerControls\CustomerDetailControl.xaml",1)
         System.Windows.Application.LoadComponent(Me, resourceLocater)

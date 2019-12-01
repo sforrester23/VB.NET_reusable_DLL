@@ -14,3 +14,7 @@ C:\Users\sam_f\code\VB.NET\AdventureWorks\AdventureWorks.ViewModelLayer\obj\Debu
 C:\Users\sam_f\code\VB.NET\AdventureWorks\AdventureWorks.ViewModelLayer\obj\Debug\AdventureWorks.ViewModelLayer.dll
 C:\Users\sam_f\code\VB.NET\AdventureWorks\AdventureWorks.ViewModelLayer\obj\Debug\AdventureWorks.ViewModelLayer.xml
 C:\Users\sam_f\code\VB.NET\AdventureWorks\AdventureWorks.ViewModelLayer\obj\Debug\AdventureWorks.ViewModelLayer.pdb
+C:\Users\sam_f\code\VB.NET\AdventureWorks\AdventureWorks.ViewModelLayer\bin\Debug\AdventureWorks.DataLayer.dll
+C:\Users\sam_f\code\VB.NET\AdventureWorks\AdventureWorks.ViewModelLayer\bin\Debug\AdventureWorks.DataLayer.pdb
+C:\Users\sam_f\code\VB.NET\AdventureWorks\AdventureWorks.ViewModelLayer\bin\Debug\AdventureWorks.DataLayer.xml
+C:\Users\sam_f\code\VB.NET\AdventureWorks\AdventureWorks.ViewModelLayer\bin\Debug\AdventureWorks.DataLayer.dll.config
