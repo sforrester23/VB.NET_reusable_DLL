@@ -1,4 +1,8 @@
-﻿Public Class CommonBase
+﻿Imports System.ComponentModel
+Imports System.Text
+
+Public Class CommonBase
+    Implements INotifyPropertyChanged
     'Default Properties assignment
     Sub New()
         IsActive = True
@@ -8,6 +12,12 @@
     Public Property IsActive As Boolean
     Public Property ModifiedDate As DateTime
     Public Property CreatedBy As String
+
+    Public Event PropertyChanged As PropertyChangedEventHandler Implements INotifyPropertyChanged.PropertyChanged
+
+    Sub RaisePropertyChanged(ByVal propertyName As String)
+        RaiseEvent PropertyChanged(Me, New PropertyChangedEventArgs(propertyName))
+    End Sub
 
     'We can define the ToString method in the parent class so that all of the child classes inherite and have access to this method
     'It overrides the overridable function ToString() which is a method call for the Object Class that every single class in VB.NET inherits from

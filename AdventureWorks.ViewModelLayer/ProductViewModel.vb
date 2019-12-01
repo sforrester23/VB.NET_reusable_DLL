@@ -16,6 +16,8 @@ Public Class ProductViewModel
     'If the data changes here then the WPF will automatically pick up that change and change the display accordingly
     Public Property Entity As Product
 
+
+    'THIS IS AN OLDER VERSION OF A PAIR OF FUNCTIONS WE WERE USING, IT HAS BEEN REPLACED FOR A NEWER FUNCTIONALITY IN THE COURSE ORDER
     'Function LoadProduct(ByVal productId As Integer) As Product
     '    Return LoadProduct(productId, Nothing)
     'End Function
@@ -35,6 +37,22 @@ Public Class ProductViewModel
     '    }
     '    Return Entity
     'End Function
+
+    Function LoadProduct(ByVal productId As Integer) As Product
+        Return LoadProduct(productId, Nothing)
+    End Function
+
+    Function LoadProduct(ByVal productId As Integer, ByVal startingFilePath As String) As Product
+        'Create a new instance of the product manager class
+        Dim mgr = New ProductManager
+
+        Entity = mgr.LoadProduct(productId, startingFilePath)
+
+        'Inform UI that the entity property has changed
+        RaisePropertyChanged("Entity")
+
+        Return Entity
+    End Function
 
     Function LoadProducts() As ObservableCollection(Of Product)
         Return LoadProducts(Nothing)

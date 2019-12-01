@@ -6,7 +6,8 @@
              xmlns:local="clr-namespace:AdventureWorks"
              xmlns:vm="clr-namespace:AdventureWorks.ViewModelLayer;assembly=AdventureWorks.ViewModelLayer"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="800"
+             Loaded="UserControl_Loaded">
     <!--The above line 7 assigns an xml name-space, with alias "view model" (vm) -->
     <!--The Resources section allows you to tell XAML to create instances of classes-->
     <UserControl.Resources>
